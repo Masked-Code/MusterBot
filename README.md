@@ -36,11 +36,6 @@
 
 1. Clone the Repository
 
-```
-git clone https://github.com/yourusername/slack-bot.git
-cd slack-bot
-```
-
 2. Create and Activate a Virtual Environment
 
 - Windows (Command Prompt)
