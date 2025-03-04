@@ -1,10 +1,10 @@
-# Automated Slack Message Bot
+# ✨ Automated Slack Message Bot ✨
 
-## Overview
+## 🔵 Overview
 
 - This Python script automates sending a message to a specific Slack channel (muster) every weekday morning at a randomized time between 06:31 and 06:40 AM. It opens the Slack desktop application, navigates to the channel, and types the message "In by 0800."
 
-## Features
+## 🔴 Features
 
 - Automatically opens the Slack desktop app
 
@@ -16,7 +16,7 @@
 
 - Runs continuously in the background
 
-## Prerequisites
+## 🟢 Prerequisites
 
 ### System Requirements
 
@@ -32,7 +32,7 @@
 
 - schedule
 
-## Setup Instructions
+## 🔵 Setup Instructions
 
 1. Clone the Repository
 
@@ -63,7 +63,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-## Usage
+## 🔴 Usage
 
 ### Running the Script
 
@@ -91,7 +91,7 @@ nohup python slack_bot.py &
 Start-Process python -ArgumentList "slack_bot.py" -NoNewWindow
 ```
 
-## Troubleshooting
+## 🟢 Troubleshooting
 
 1. Slack Doesn't Open
 
@@ -117,7 +117,7 @@ pip install --upgrade -r requirements.txt
 
 - If necessary, manually adjust the random delay settings in the script.
 
-## Customization
+## 🔵 Customization
 
 ### Changing the Message
 
