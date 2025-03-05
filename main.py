@@ -29,7 +29,7 @@ def send_message():
 
 def automate_slack_message():
     """Automates the entire process with a random delay."""
-    delay = random.randint(1, 10) * 60
+    delay = random.randint(1, 5) * 60
     print(f"Delaying message by {delay // 60} minutes...")
     time.sleep(delay)
     open_slack()
